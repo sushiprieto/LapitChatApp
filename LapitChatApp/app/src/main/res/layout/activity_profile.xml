@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.trabajo.carlos.lapitchatapp.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_imvAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:scaleType="center"
+        app:srcCompat="@drawable/avatar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="40">
+
+        <TextView
+            android:id="@+id/profile_txvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Nombre usuario"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/profile_txvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Estado"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/profile_txvTotalAmigos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Total amigos"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/profile_btnSendReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="enviar peticion"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/profile_btnDeclineReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="Rechazar peticion"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

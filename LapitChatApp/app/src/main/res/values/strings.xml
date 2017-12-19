@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LapitChatApp</string>
+    <string name="btn_create_account">Create account</string>
+    <string name="edtUsername">Username</string>
+    <string name="edtEmail">Email</string>
+    <string name="edtPassword">Password</string>
+    <string name="btnCreate_account">Create account</string>
+    <string name="menuLog_out">Log Out</string>
+    <string name="btnLogIn">Log in</string>
+    <string name="txvNewAcc">Create a New Account</string>
+    <string name="txvLogin">Login to your account</string>
+    <string name="login_btnLogin">login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_btnCambiarImagen">Cambiar Imagen</string>
+    <string name="settings_btnCambiarEstado">Cambiar estado</string>
+    <string name="settings_txvStatus">Estoy usando Lapit Chat</string>
+    <string name="settings_txvName">Nombre de Usuario</string>
+    <string name="status_edtEstado">Tu nuevo estado</string>
+    <string name="status_btnStatus">Cambiar</string>
+</resources>
